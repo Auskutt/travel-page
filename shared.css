@@ -9,14 +9,15 @@ ul {
   padding: 0;
 }
 
+li a {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-header ul {
-  display: flex;
+  padding: 15px 60px;
 }
 
 #page-logo a {
@@ -27,4 +28,12 @@ header ul {
   text-decoration: none;
   text-transform: uppercase;
   text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+header ul {
+  display: flex;
+}
+
+header li {
+  margin-left: 20px;
 }
